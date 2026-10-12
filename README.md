@@ -1,5 +1,24 @@
 # Cybershuttle AI Model Foundry
 
+## CHGNet Assignment 2 reproduction — Pratham Patel
+
+The [CHGNet reproduction guide](docs/tutorials/chgnet-pratham/README.md) is the primary guide for environment setup, artifact provenance, GPU allocation, inference, validation, troubleshooting, and cleanup. The contribution tracks [issue #21](https://github.com/cyber-shuttle/cybershuttle-ai4science-foundry/issues/21) and [Assignment 2 PR #39](https://github.com/cyber-shuttle/cybershuttle-ai4science-foundry/pull/39).
+
+In an allocated Linux GPU session with Python 3.10, start from this branch and run:
+
+```bash
+cd docs/tutorials/chgnet-pratham
+module load anaconda3/2023.03
+TORCH_BACKEND=cu121 DEPENDENCY_LOCK=evidence/6199752/dependencies-lock.txt bash scripts/setup.sh
+DEVICE=cuda bash scripts/run.sh
+source .venv/bin/activate
+python -m unittest discover -s tests -v
+```
+
+The inference command exits successfully only when finite-value/shape checks, the official energy/force/stress/magnetic-moment comparisons, and rotation/translation/site-permutation checks pass. See the guide for Slurm submission and alternative Python setup. The [recorded H100 results](docs/tutorials/chgnet-pratham/evidence/6199752/results.json) and [run summary](docs/tutorials/chgnet-pratham/docs/run-summary.md) document successful job 6199752 on October 11, 2026. This small-input reproduction checks released-model behavior and physical consistency; it does not reproduce the paper's full held-out benchmark.
+
+---
+
 **A community registry for curating, benchmarking, and running AI4Science models on Nexus and other advanced cyberinfrastructure. The goal is to turn AI4Science models into portable, optimized, reproducible, and executable scientific workflows.**
 
 [Goals](#goals) · [Model lifecycle](#how-a-model-moves-through-the-foundry) · [Get involved](#get-involved) · [Repository structure](#repository-structure) · [Key concepts](#key-concepts) · [Example model entry](#example-model-entry) · [Issue template](#issue-template-add-ai4science-model) · [Optimization tracks](#optimization-tracks) · [Roadmap](#roadmap) · [Contributing](#contributing)
