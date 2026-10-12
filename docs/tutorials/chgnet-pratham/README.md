@@ -16,7 +16,12 @@ Python **3.10.13** and the module `anaconda3/2023.03` were used for the historic
 
 ## 2. Setup
 
-Clone this project repository to persistent course storage, then change to its root. Commands below assume a Linux compute session, outbound package access, Git, and Python 3.10. Run installations and inference within allocated compute resources.
+Clone the submitted branch to persistent course storage and change to the tutorial directory. All subsequent commands run from `docs/tutorials/chgnet-pratham/`, which is the workflow root. Commands assume a Linux compute session, outbound package access, Git, and Python 3.10. Run installations and inference within allocated compute resources.
+
+```bash
+git clone --branch assignment2-chgnet-pratham --single-branch https://github.com/prathampatel21/cybershuttle-ai4science-foundry.git
+cd cybershuttle-ai4science-foundry/docs/tutorials/chgnet-pratham
+```
 
 ```bash
 module load anaconda3/2023.03
