@@ -1,0 +1,218 @@
+[
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 4,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 7.940361499786377,
+    "finite_difference_GPa": 7.939440302834518,
+    "abs_error_GPa": 0.0009211969518592156
+  },
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 4,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 7.940361499786377,
+    "finite_difference_GPa": 7.872838348375957,
+    "abs_error_GPa": 0.06752315141041976
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 4,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 7.940366268157959,
+    "finite_difference_GPa": 7.939440302834518,
+    "abs_error_GPa": 0.0009259653234412468
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 4,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 7.940366268157959,
+    "finite_difference_GPa": 7.872838348375957,
+    "abs_error_GPa": 0.06752791978200179
+  },
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 8,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 1.698500633239746,
+    "finite_difference_GPa": 1.7025733772687182,
+    "abs_error_GPa": 0.004072744028972064
+  },
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 8,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 1.698500633239746,
+    "finite_difference_GPa": 1.737311982051555,
+    "abs_error_GPa": 0.03881134881180892
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 8,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 1.6984955072402954,
+    "finite_difference_GPa": 1.7025733772687182,
+    "abs_error_GPa": 0.004077870028422748
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 8,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 1.6984955072402954,
+    "finite_difference_GPa": 1.737311982051555,
+    "abs_error_GPa": 0.038816474811259605
+  },
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 12,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": -2.5245370864868164,
+    "finite_difference_GPa": -2.519143069209468,
+    "abs_error_GPa": 0.00539401727734834
+  },
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "index": 12,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": -2.5245370864868164,
+    "finite_difference_GPa": -2.5115802379795324,
+    "abs_error_GPa": 0.012956848507283958
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 12,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": -2.5245208740234375,
+    "finite_difference_GPa": -2.519143069209468,
+    "abs_error_GPa": 0.0053778048139694334
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "index": 12,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": -2.5245208740234375,
+    "finite_difference_GPa": -2.5115802379795324,
+    "abs_error_GPa": 0.012940636043905052
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 4,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 10.354083061218262,
+    "finite_difference_GPa": 10.355156494162966,
+    "abs_error_GPa": 0.001073432944703967
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 4,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 10.354083061218262,
+    "finite_difference_GPa": 10.319940577340713,
+    "abs_error_GPa": 0.03414248387754881
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 4,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 6.425823211669922,
+    "finite_difference_GPa": 6.4227124490111995,
+    "abs_error_GPa": 0.0031107626587223436
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 4,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 6.425823211669922,
+    "finite_difference_GPa": 6.431097191111737,
+    "abs_error_GPa": 0.005273979441815513
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 8,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 0.06284333765506744,
+    "finite_difference_GPa": 0.06699408938328918,
+    "abs_error_GPa": 0.004150751728221741
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 8,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 0.06284333765506744,
+    "finite_difference_GPa": 0.0685704208981901,
+    "abs_error_GPa": 0.005727083243122655
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 8,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": 0.2570161521434784,
+    "finite_difference_GPa": 0.25615387117139987,
+    "abs_error_GPa": 0.0008622809720785218
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 8,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": 0.2570161521434784,
+    "finite_difference_GPa": 0.2482722135968952,
+    "abs_error_GPa": 0.008743938546583202
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 12,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": -7.124973773956299,
+    "finite_difference_GPa": -7.138104973136248,
+    "abs_error_GPa": 0.013131199179949427
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "index": 12,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": -7.124973773956299,
+    "finite_difference_GPa": -7.16412931418414,
+    "abs_error_GPa": 0.03915554022784118
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 12,
+    "relative_volume_step": 0.001,
+    "model_pressure_GPa": -4.720919609069824,
+    "finite_difference_GPa": -4.732712307709606,
+    "abs_error_GPa": 0.011792698639781385
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "index": 12,
+    "relative_volume_step": 0.005,
+    "model_pressure_GPa": -4.720919609069824,
+    "finite_difference_GPa": -4.7104057296685555,
+    "abs_error_GPa": 0.010513879401268689
+  }
+]

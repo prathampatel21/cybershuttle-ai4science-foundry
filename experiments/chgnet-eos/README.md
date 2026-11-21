@@ -35,7 +35,7 @@ obtained by relaxing cell shape. Scalar pressure may leave deviatoric stress.
 
 ## Reproduce on ICE
 
-Use an allocated GPU compute session: one H100 or H200, four CPUs, 16 GB RAM,
+Use an allocated GPU compute session: one V100, H100 or H200, four CPUs, 16 GB RAM,
 one hour for setup and experiment. Confirm your course account/partition.
 Clone into your own scratch directory; do not run compute on the login node.
 
@@ -72,5 +72,61 @@ before drawing scientific conclusions. Scripts never overwrite run evidence.
 - [Pinned ASE interface](https://github.com/CederGroupHub/chgnet/blob/b9a6c15860237297a5a5169660e83b2e61a78e76/chgnet/model/dynamics.py)
 - [CHGNet scientific applications](https://chgnet.lbl.gov/)
 
-Limitations and measured findings will be documented with the execution evidence.
+## Measured findings
+
+[Run 7229001](evidence/7229001/) completed on November 21, 2026 using a Tesla
+V100 16 GB on ICE (four CPUs, 16 GB requested RAM). The scan/refinement loop
+ran in 20.21 seconds, excluding imports, model loading and reference validation;
+peak PyTorch allocated memory was 257.0 MiB. The executed source revision was
+`e26db6602f906a500aebca6276cbf23e232911ed`.
+
+| System | Frozen five-point stiffness | Relaxed five-point stiffness |
+|---|---:|---:|
+| Silicon | 85.96 GPa | 85.96 GPa |
+| LiMnO2 | 125.90 GPa | 87.59 GPa |
+
+All 34 main relaxations and 10 tighter-force refinements converged. LiMnO2's
+local estimate decreases by 30.4%; its refined value is 88.86 GPa. The result
+is not a measured bulk modulus or a comparison with DFT. The 5/9/13-point
+windows give 125.90-144.22 GPa frozen and 87.59-92.98 GPa relaxed for LiMnO2,
+showing a persistent trend with nontrivial fit sensitivity.
+
+There are 24 pressure/energy-derivative comparisons. The largest difference is
+0.06753 GPa; h=0.001 gives a largest difference of 0.01314 GPa (both rounded
+upward). Since CHGNet differentiates energy to obtain stress, this tests
+internal consistency, not independent scientific accuracy.
+
+The run reused the established environment at `WORKFLOW_ROOT` rather than
+reinstalling it. A direct srun allocation avoided OnDemand staging failure due
+to home-directory quota. Outputs were written to scratch, no files were deleted,
+and a fresh original reference/symmetry validation passed on the V100. The
+scheduler snapshot was captured while active; the separate shell exit files
+record successful completion. The allocation was released afterward.
+
+For exact local findings, see [summary.json](evidence/7229001/summary.json),
+[raw scan](evidence/7229001/scan.json), [execution log](evidence/7229001.execution.log),
+and the [Part 1 PDF](report/Assignment5_Part1_CHGNet_Proof_of_Concept.pdf).
+
+## Regenerate the report
+
+The inference environment needs no new dependencies. PDF generation is optional
+and uses `numpy` and `reportlab==4.4.9` (no matplotlib or scipy is required):
+
+```bash
+python -m pip install reportlab==4.4.9
+python scripts/make_report.py --output report/Assignment5_Part1_CHGNet_Proof_of_Concept.pdf
+```
+
+This reads the archived evidence rather than rerunning the model. It also saves
+a supplementary pressure-slope analysis of the same scan. Analysis tests can
+run without CHGNet using `python -m unittest discover -s tests -v`.
+
+## Limitations and next steps
+
+Two cells, one checkpoint and unknown training overlap cannot establish
+transferability. Quadratic fit range, force residuals, fixed shape and lack of
+finite-temperature treatment limit interpretation. Next steps are denser scans,
+Birch-Murnaghan fitting, cell-shape relaxation, a fresh scratch installation,
+and comparison against a provenance-checked DFT equation of state or a second
+potential under identical constraints.
 Part 2 (presentation recording) is outside this experiment's current scope.

@@ -1,0 +1,312 @@
+{
+  "fits": [
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 9.703671174035955,
+      "stiffness_GPa": 125.89831782433397,
+      "energy_rmse_meV_atom": 0.035604526390008155,
+      "coefficients": [
+        3.804252261207727,
+        -0.00829378763832127,
+        -7.3676659311567
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 9.718073517534785,
+      "stiffness_GPa": 133.30975119659664,
+      "energy_rmse_meV_atom": 0.35685773931361225,
+      "coefficients": [
+        4.022232668512717,
+        -0.020721753438363376,
+        -7.367796720364393
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 9.744642666306968,
+      "stiffness_GPa": 144.2168482142839,
+      "energy_rmse_meV_atom": 1.216476208790177,
+      "coefficients": [
+        4.339458437206228,
+        -0.04614526098903884,
+        -7.368206597708322
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 9.718588784477774,
+      "stiffness_GPa": 87.58846278945516,
+      "energy_rmse_meV_atom": 0.026217050372782224,
+      "coefficients": [
+        2.6425861177001124,
+        -0.013895034789962301,
+        -7.367819336482454
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 9.727935878860633,
+      "stiffness_GPa": 88.33959165607725,
+      "energy_rmse_meV_atom": 0.13759952563969122,
+      "coefficients": [
+        2.662687131911303,
+        -0.019136004977797716,
+        -7.36782931249379
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 9.751402168446088,
+      "stiffness_GPa": 92.98470175447245,
+      "energy_rmse_meV_atom": 0.6927164996451389,
+      "coefficients": [
+        2.795953122872977,
+        -0.03363134223465833,
+        -7.368009563926217
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 20.448231168159232,
+      "stiffness_GPa": 85.95898514159718,
+      "energy_rmse_meV_atom": 0.3479169420976929,
+      "coefficients": [
+        5.413102308911241,
+        -0.07203702926628094,
+        -5.313884912218366
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 20.517261643453146,
+      "stiffness_GPa": 85.1003794002571,
+      "energy_rmse_meV_atom": 0.7358010632913289,
+      "coefficients": [
+        5.34100275208399,
+        -0.10737849606410768,
+        -5.313823741235777
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 20.612229430417035,
+      "stiffness_GPa": 79.98070335083831,
+      "energy_rmse_meV_atom": 1.8893351495830155,
+      "coefficients": [
+        4.996558233667165,
+        -0.14717347193986274,
+        -5.3134230967168214
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 20.448231168159232,
+      "stiffness_GPa": 85.95898514159718,
+      "energy_rmse_meV_atom": 0.3479169420976929,
+      "coefficients": [
+        5.413102308911241,
+        -0.07203702926628094,
+        -5.313884912218366
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 20.517261643453146,
+      "stiffness_GPa": 85.1003794002571,
+      "energy_rmse_meV_atom": 0.7358010632913289,
+      "coefficients": [
+        5.34100275208399,
+        -0.10737849606410768,
+        -5.313823741235777
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 20.612229430417035,
+      "stiffness_GPa": 79.98070335083831,
+      "energy_rmse_meV_atom": 1.8893351495830155,
+      "coefficients": [
+        4.996558233667165,
+        -0.14717347193986274,
+        -5.3134230967168214
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 6
+    }
+  ],
+  "checks": [
+    {
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.013131199179949427,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.03915554022784118,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.011792698639781385,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.010513879401268689,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "frozen",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.00539401727734834,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "frozen",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.06752315141041976,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "relaxed",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.0053778048139694334,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "relaxed",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.06752791978200179,
+      "count": 3
+    }
+  ],
+  "relaxation": [
+    {
+      "material": "LiMnO2",
+      "converged": 17,
+      "total": 17,
+      "min_gain_meV_atom": 0.15974044799804688,
+      "max_gain_meV_atom": 26.126384735107422,
+      "max_steps": 33
+    },
+    {
+      "material": "Si",
+      "converged": 17,
+      "total": 17,
+      "min_gain_meV_atom": 0.0,
+      "max_gain_meV_atom": 0.0,
+      "max_steps": 0
+    }
+  ],
+  "refinement": [
+    {
+      "material": "LiMnO2",
+      "converged": 5,
+      "total": 5,
+      "max_extra_energy_drop_meV_atom": 0.07200241088867188,
+      "tight_fit": {
+        "valid": true,
+        "n_points": 5,
+        "volume_A3_atom": 9.717462014042725,
+        "stiffness_GPa": 88.86260905082975,
+        "energy_rmse_meV_atom": 0.011935143851125417,
+        "coefficients": [
+          2.681338597858627,
+          -0.013475418090792906,
+          -7.367881311689102
+        ],
+        "center_volume_A3_atom": 9.693105030000957
+      }
+    },
+    {
+      "material": "Si",
+      "converged": 5,
+      "total": 5,
+      "max_extra_energy_drop_meV_atom": 0.0,
+      "tight_fit": {
+        "valid": true,
+        "n_points": 5,
+        "volume_A3_atom": 20.448231168159232,
+        "stiffness_GPa": 85.95898514159718,
+        "energy_rmse_meV_atom": 0.3479169420976929,
+        "coefficients": [
+          5.413102308911241,
+          -0.07203702926628094,
+          -5.313884912218366
+        ],
+        "center_volume_A3_atom": 20.313069013125
+      }
+    }
+  ]
+}

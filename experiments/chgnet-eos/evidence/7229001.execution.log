@@ -1,0 +1,362 @@
+Sat Nov 21 08:45:04 PM UTC 2026
+atl1-1-02-009-32-0.pace.gatech.edu
+e26db6602f906a500aebca6276cbf23e232911ed
+Python 3.10.13
+No broken requirements found.
+test_boundary_minimum_not_extrapolated (test_analysis.FitChecks) ... ok
+test_known_quadratic_stiffness_and_minimum (test_analysis.FitChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.026s
+
+OK
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda
+CHGNet will run on cuda
+{"material": "Si", "mode": "relaxed", "index": 0, "volume_factor": 0.88, "converged": true, "steps": 0, "energy_eV_atom": -5.179101943969727, "volume_A3_atom": 17.61133077000001, "max_force_eV_A": 3.6694393656944158e-06, "pressure_GPa": 18.816425323486328, "stress_GPa": [[-18.816425323486328, 2.294083742526709e-06, -2.8983879474253627e-07], [2.294083742526709e-06, -18.816425323486328, 6.618243787670508e-06], [-2.8983879474253627e-07, 6.618243787670508e-06, -18.816425323486328]]}
+{"material": "Si", "mode": "relaxed", "index": 1, "volume_factor": 0.895, "converged": true, "steps": 0, "energy_eV_atom": -5.21022367477417, "volume_A3_atom": 17.911523908125, "max_force_eV_A": 3.1145921184361214e-06, "pressure_GPa": 14.396283149719238, "stress_GPa": [[-14.396283149719238, -2.2249569155974314e-06, 2.705844508454902e-06], [-2.2249569155974314e-06, -14.396283149719238, -3.5174273307347903e-06], [2.705844508454902e-06, -3.5174273307347903e-06, -14.396282196044922]]}
+{"material": "Si", "mode": "relaxed", "index": 2, "volume_factor": 0.91, "converged": true, "steps": 0, "energy_eV_atom": -5.23629903793335, "volume_A3_atom": 18.211717046249998, "max_force_eV_A": 3.643692025434575e-06, "pressure_GPa": 13.120892524719238, "stress_GPa": [[-13.120893478393555, -1.076136868505273e-06, -2.3119262095860904e-06], [-1.076136868505273e-06, -13.120893478393555, 2.7440651138022076e-06], [-2.3119262095860904e-06, 2.7440651138022076e-06, -13.120893478393555]]}
+{"material": "Si", "mode": "relaxed", "index": 3, "volume_factor": 0.925, "converged": true, "steps": 0, "energy_eV_atom": -5.258328914642334, "volume_A3_atom": 18.51191018437501, "max_force_eV_A": 1.82953567673394e-06, "pressure_GPa": 10.302370071411133, "stress_GPa": [[-10.3023681640625, 3.448287202445499e-07, -9.37534252898331e-07], [3.448287202445499e-07, -10.30237102508545, -2.9605289455503225e-06], [-9.37534252898331e-07, -2.9605289455503225e-06, -10.302370071411133]]}
+{"material": "Si", "mode": "relaxed", "index": 4, "volume_factor": 0.9400000000000001, "converged": true, "steps": 0, "energy_eV_atom": -5.2755632400512695, "volume_A3_atom": 18.8121033225, "max_force_eV_A": 4.1350244828208815e-06, "pressure_GPa": 7.940361499786377, "stress_GPa": [[-7.940361022949219, 5.3455160013982095e-06, 2.1492483028850984e-06], [5.3455160013982095e-06, -7.940361976623535, -3.4467739169485867e-06], [2.1492483028850984e-06, -3.4467739169485867e-06, -7.940361976623535]]}
+{"material": "Si", "mode": "relaxed", "index": 5, "volume_factor": 0.9550000000000001, "converged": true, "steps": 0, "energy_eV_atom": -5.288078784942627, "volume_A3_atom": 19.112296460625004, "max_force_eV_A": 4.065361736138584e-06, "pressure_GPa": 6.072765827178955, "stress_GPa": [[-6.072765350341797, -1.34244771743397e-06, -4.340776740718866e-06], [-1.34244771743397e-06, -6.07276725769043, -7.975104381330311e-06], [-4.340776740718866e-06, -7.975104381330311e-06, -6.072765827178955]]}
+{"material": "Si", "mode": "relaxed", "index": 6, "volume_factor": 0.9700000000000001, "converged": true, "steps": 0, "energy_eV_atom": -5.298628807067871, "volume_A3_atom": 19.412489598750003, "max_force_eV_A": 4.815451575268526e-06, "pressure_GPa": 5.057215213775635, "stress_GPa": [[-5.057215690612793, -2.457341679473757e-06, -6.068469247111352e-06], [-2.457341679473757e-06, -5.057215690612793, -5.906108981434954e-06], [-6.068469247111352e-06, -5.906108981434954e-06, -5.057214260101318]]}
+{"material": "Si", "mode": "relaxed", "index": 7, "volume_factor": 0.9850000000000001, "converged": true, "steps": 0, "energy_eV_atom": -5.306769847869873, "volume_A3_atom": 19.712682736875003, "max_force_eV_A": 3.66548374586273e-06, "pressure_GPa": 3.710258722305298, "stress_GPa": [[-3.7102572917938232, -8.417147228101385e-07, -6.352398145281768e-07], [-8.417147228101385e-07, -3.710261344909668, 2.138792297046166e-06], [-6.352398145281768e-07, 2.138792297046166e-06, -3.7102572917938232]]}
+{"material": "Si", "mode": "relaxed", "index": 8, "volume_factor": 1.0, "converged": true, "steps": 0, "energy_eV_atom": -5.3121795654296875, "volume_A3_atom": 20.012875874999995, "max_force_eV_A": 1.1114556400571018e-05, "pressure_GPa": 1.698500633239746, "stress_GPa": [[-1.698500633239746, -2.9063781767035834e-05, -1.4278381058829837e-05], [-2.9063781767035834e-05, -1.6985012292861938, -1.7088812455767766e-05], [-1.4278381058829837e-05, -1.7088812455767766e-05, -1.6985000371932983]]}
+{"material": "Si", "mode": "relaxed", "index": 9, "volume_factor": 1.0150000000000001, "converged": true, "steps": 0, "energy_eV_atom": -5.313802719116211, "volume_A3_atom": 20.313069013125, "max_force_eV_A": 8.893560334399808e-06, "pressure_GPa": 0.18625898659229279, "stress_GPa": [[-0.18625885248184204, -8.015039384190459e-06, 5.378617061069235e-06], [-8.015039384190459e-06, -0.18625882267951965, -5.840307949256385e-06], [5.378617061069235e-06, -5.840307949256385e-06, -0.18625929951667786]]}
+{"material": "Si", "mode": "relaxed", "index": 10, "volume_factor": 1.03, "converged": true, "steps": 0, "energy_eV_atom": -5.313335418701172, "volume_A3_atom": 20.613262151249987, "max_force_eV_A": 4.7044009079399984e-06, "pressure_GPa": -0.5517950057983398, "stress_GPa": [[0.5517919659614563, 1.1155479114677291e-05, 6.230818598851329e-06], [1.1155479114677291e-05, 0.551801323890686, -2.9515871347030043e-07], [6.230818598851329e-06, -2.9515871347030043e-07, 0.5517916679382324]]}
+{"material": "Si", "mode": "relaxed", "index": 11, "volume_factor": 1.0450000000000002, "converged": true, "steps": 0, "energy_eV_atom": -5.311514854431152, "volume_A3_atom": 20.913455289375, "max_force_eV_A": 4.199907380098011e-06, "pressure_GPa": -1.4605413675308228, "stress_GPa": [[1.4605414867401123, -5.1446409088384826e-06, -8.761377756627553e-08], [-5.1446409088384826e-06, 1.4605413675308228, 2.9063048714306206e-06], [-8.761377756627553e-08, 2.9063048714306206e-06, 1.4605412483215332]]}
+{"material": "Si", "mode": "relaxed", "index": 12, "volume_factor": 1.06, "converged": true, "steps": 0, "energy_eV_atom": -5.307693958282471, "volume_A3_atom": 21.2136484275, "max_force_eV_A": 6.846764335932676e-06, "pressure_GPa": -2.5245370864868164, "stress_GPa": [[2.5245373249053955, -6.3700081227580085e-06, -7.177848715400614e-07], [-6.3700081227580085e-06, 2.5245368480682373, -2.44748116529081e-06], [-7.177848715400614e-07, -2.44748116529081e-06, 2.5245368480682373]]}
+{"material": "Si", "mode": "relaxed", "index": 13, "volume_factor": 1.0750000000000002, "converged": true, "steps": 0, "energy_eV_atom": -5.302421569824219, "volume_A3_atom": 21.513841565624993, "max_force_eV_A": 4.564792561723152e-06, "pressure_GPa": -2.994845390319824, "stress_GPa": [[2.9948458671569824, -6.31822388186265e-07, 2.3215798137243837e-06], [-6.31822388186265e-07, 2.994844913482666, -1.4700324300065404e-06], [2.3215798137243837e-06, -1.4700324300065404e-06, 2.9948456287384033]]}
+{"material": "Si", "mode": "relaxed", "index": 14, "volume_factor": 1.09, "converged": true, "steps": 0, "energy_eV_atom": -5.297035217285156, "volume_A3_atom": 21.81403470375, "max_force_eV_A": 6.381096227414673e-06, "pressure_GPa": -2.8395259380340576, "stress_GPa": [[2.8395256996154785, -1.8049466916636447e-06, 9.563096682541072e-06], [-1.8049466916636447e-06, 2.839526653289795, 9.795435289561283e-06], [9.563096682541072e-06, 9.795435289561283e-06, 2.8395256996154785]]}
+{"material": "Si", "mode": "relaxed", "index": 15, "volume_factor": 1.105, "converged": true, "steps": 0, "energy_eV_atom": -5.290541172027588, "volume_A3_atom": 22.114227841874992, "max_force_eV_A": 9.240930921805557e-06, "pressure_GPa": -3.9455642700195312, "stress_GPa": [[3.9455645084381104, -1.8954783627123106e-06, 1.6165979104698636e-05], [-1.8954783627123106e-06, 3.945564031600952, -2.114759354299167e-06], [1.6165979104698636e-05, -2.114759354299167e-06, 3.9455645084381104]]}
+{"material": "Si", "mode": "relaxed", "index": 16, "volume_factor": 1.12, "converged": true, "steps": 0, "energy_eV_atom": -5.2825469970703125, "volume_A3_atom": 22.414420979999996, "max_force_eV_A": 6.349045179376844e-06, "pressure_GPa": -4.484612941741943, "stress_GPa": [[4.484612941741943, -8.444561672149575e-07, -4.910933512292104e-06], [-8.444561672149575e-07, 4.484611988067627, -8.296274245367385e-06], [-4.910933512292104e-06, -8.296274245367385e-06, 4.484612941741943]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 0, "volume_factor": 0.88, "converged": true, "steps": 17, "energy_eV_atom": -7.314402103424072, "volume_A3_atom": 8.52993242640085, "max_force_eV_A": 0.027391284704208374, "pressure_GPa": 17.701690673828125, "stress_GPa": [[-24.318889617919922, -8.261165930889547e-05, 1.689271994109731e-05], [-8.261165930889547e-05, -10.998059272766113, 4.2078259866684675e-05], [1.689271994109731e-05, 4.2078259866684675e-05, -17.788124084472656]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 1, "volume_factor": 0.895, "converged": true, "steps": 17, "energy_eV_atom": -7.329034805297852, "volume_A3_atom": 8.67532900185086, "max_force_eV_A": 0.029534757137298584, "pressure_GPa": 14.664592742919922, "stress_GPa": [[-20.322940826416016, 2.8725178253807826e-06, -8.864579399414652e-07], [2.8725178253807826e-06, -8.994882583618164, 5.035969934397144e-06], [-8.864579399414652e-07, 5.035969934397144e-06, -14.67595386505127]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 2, "volume_factor": 0.91, "converged": true, "steps": 17, "energy_eV_atom": -7.340897560119629, "volume_A3_atom": 8.82072557730088, "max_force_eV_A": 0.02404727041721344, "pressure_GPa": 11.679698944091797, "stress_GPa": [[-16.30683135986328, 7.354741683229804e-05, -1.0132024726772215e-05], [7.354741683229804e-05, -7.01778507232666, 4.536327196547063e-06], [-1.0132024726772215e-05, 4.536327196547063e-06, -11.714481353759766]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 3, "volume_factor": 0.925, "converged": true, "steps": 12, "energy_eV_atom": -7.350038051605225, "volume_A3_atom": 8.966122152750886, "max_force_eV_A": 0.028781138360500336, "pressure_GPa": 8.749141693115234, "stress_GPa": [[-12.243911743164062, 2.026897345785983e-05, 6.971631592023186e-06], [2.026897345785983e-05, -5.349931240081787, 3.179777922923677e-05], [6.971631592023186e-06, 3.179777922923677e-05, -8.653581619262695]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 4, "volume_factor": 0.9400000000000001, "converged": true, "steps": 8, "energy_eV_atom": -7.356896877288818, "volume_A3_atom": 9.111518728200904, "max_force_eV_A": 0.0048714280128479, "pressure_GPa": 6.425830841064453, "stress_GPa": [[-9.015727043151855, 5.007202830142887e-08, -4.46042946578018e-07], [5.007202830142887e-08, -3.9997270107269287, -2.438186129438691e-06], [-4.46042946578018e-07, -2.438186129438691e-06, -6.262038230895996]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 5, "volume_factor": 0.9550000000000001, "converged": true, "steps": 19, "energy_eV_atom": -7.361710071563721, "volume_A3_atom": 9.256915303650926, "max_force_eV_A": 0.02458745241165161, "pressure_GPa": 4.34142541885376, "stress_GPa": [[-6.112100601196289, 3.1035926895128796e-06, 4.865674441134615e-07], [3.1035926895128796e-06, -2.681774139404297, -2.0784850107702368e-07], [4.865674441134615e-07, -2.0784850107702368e-07, -4.230401039123535]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 6, "volume_factor": 0.9700000000000001, "converged": true, "steps": 13, "energy_eV_atom": -7.365017414093018, "volume_A3_atom": 9.402311879100933, "max_force_eV_A": 0.029461570084095, "pressure_GPa": 2.8814563751220703, "stress_GPa": [[-4.082278251647949, -1.9277269984740997e-06, -3.996981092768692e-07], [-1.9277269984740997e-06, -1.7894582748413086, 5.434209811028268e-07], [-3.996981092768692e-07, 5.434209811028268e-07, -2.7726328372955322]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 7, "volume_factor": 0.9850000000000001, "converged": true, "steps": 9, "energy_eV_atom": -7.367019176483154, "volume_A3_atom": 9.547708454550946, "max_force_eV_A": 0.024952515959739685, "pressure_GPa": 1.471044898033142, "stress_GPa": [[-2.1638500690460205, 3.122569225411098e-08, 4.827296038456552e-07], [3.122569225411098e-08, -0.864100992679596, 1.7619840946281329e-06], [4.827296038456552e-07, 1.7619840946281329e-06, -1.3851838111877441]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 8, "volume_factor": 1.0, "converged": true, "steps": 7, "energy_eV_atom": -7.367851257324219, "volume_A3_atom": 9.693105030000957, "max_force_eV_A": 0.027989642694592476, "pressure_GPa": 0.2570309638977051, "stress_GPa": [[-0.46710747480392456, -6.149001819721889e-06, -5.6344910262851045e-05], [-6.149001819721889e-06, 0.08865398168563843, 5.1883589549106546e-06], [-5.6344910262851045e-05, 5.1883589549106546e-06, -0.3926394283771515]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 9, "volume_factor": 1.0150000000000001, "converged": true, "steps": 14, "energy_eV_atom": -7.367387771606445, "volume_A3_atom": 9.838501605450974, "max_force_eV_A": 0.026748791337013245, "pressure_GPa": -1.2155706882476807, "stress_GPa": [[1.4973238706588745, 2.5754611669981387e-06, 2.83973645309743e-06], [2.5754611669981387e-06, 1.1578772068023682, -1.8868754523282405e-06], [2.83973645309743e-06, -1.8868754523282405e-06, 0.9915110468864441]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 10, "volume_factor": 1.03, "converged": true, "steps": 20, "energy_eV_atom": -7.365875244140625, "volume_A3_atom": 9.983898180900983, "max_force_eV_A": 0.02232760563492775, "pressure_GPa": -2.370246410369873, "stress_GPa": [[3.102296829223633, -6.065757588658016e-06, 6.203216344147222e-06], [-6.065757588658016e-06, 1.9769272804260254, 5.582664925896097e-06], [6.203216344147222e-06, 5.582664925896097e-06, 2.031515121459961]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 11, "volume_factor": 1.0450000000000002, "converged": true, "steps": 16, "energy_eV_atom": -7.36318302154541, "volume_A3_atom": 10.129294756351005, "max_force_eV_A": 0.028097927570343018, "pressure_GPa": -3.542480230331421, "stress_GPa": [[4.749255657196045, -1.6735577446524985e-05, -5.243613031780114e-06], [-1.6735577446524985e-05, 2.833383083343506, -1.330355280515505e-05], [-5.243613031780114e-06, -1.330355280515505e-05, 3.044801950454712]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 12, "volume_factor": 1.06, "converged": true, "steps": 29, "energy_eV_atom": -7.35957670211792, "volume_A3_atom": 10.274691331801018, "max_force_eV_A": 0.02790394425392151, "pressure_GPa": -4.720916271209717, "stress_GPa": [[6.571676731109619, 6.20291248196736e-05, 1.783397965482436e-05], [6.20291248196736e-05, 3.653876304626465, 3.425808608881198e-05], [1.783397965482436e-05, 3.425808608881198e-05, 3.937195301055908]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 13, "volume_factor": 1.0750000000000002, "converged": true, "steps": 20, "energy_eV_atom": -7.354894638061523, "volume_A3_atom": 10.42008790725104, "max_force_eV_A": 0.027829855680465698, "pressure_GPa": -5.692122936248779, "stress_GPa": [[7.9672393798828125, 4.187411946077191e-07, -5.828998382639838e-06], [4.187411946077191e-07, 4.490161895751953, 5.512969892151887e-06], [-5.828998382639838e-06, 5.512969892151887e-06, 4.618967056274414]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 14, "volume_factor": 1.09, "converged": true, "steps": 32, "energy_eV_atom": -7.349282264709473, "volume_A3_atom": 10.565484482701056, "max_force_eV_A": 0.02854195609688759, "pressure_GPa": -6.663272857666016, "stress_GPa": [[9.325478553771973, 3.1048142545841984e-07, 4.256785643974581e-07], [3.1048142545841984e-07, 5.1279683113098145, 1.8217564274891629e-06], [4.256785643974581e-07, 1.8217564274891629e-06, 5.536370277404785]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 15, "volume_factor": 1.105, "converged": true, "steps": 32, "energy_eV_atom": -7.342843532562256, "volume_A3_atom": 10.710881058151058, "max_force_eV_A": 0.026972966268658638, "pressure_GPa": -7.7553935050964355, "stress_GPa": [[10.864265441894531, 4.175254275651241e-08, 2.1838184238731628e-07], [4.175254275651241e-08, 5.909604072570801, 4.772991815116256e-07], [2.1838184238731628e-07, 4.772991815116256e-07, 6.492311954498291]]}
+{"material": "LiMnO2", "mode": "relaxed", "index": 16, "volume_factor": 1.12, "converged": true, "steps": 33, "energy_eV_atom": -7.335448265075684, "volume_A3_atom": 10.856277633601074, "max_force_eV_A": 0.028253883123397827, "pressure_GPa": -8.71625804901123, "stress_GPa": [[12.121474266052246, -5.146313242221368e-07, -1.2453926956368377e-06], [-5.146313242221368e-07, 6.7852253913879395, 6.296625087998109e-07], [-1.2453926956368377e-06, 6.296625087998109e-07, 7.242072105407715]]}
+EXPERIMENT COMPLETED; assess convergence and fits separately from execution.
+{
+  "fits": [
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 9.703671174035955,
+      "stiffness_GPa": 125.89831782433397,
+      "energy_rmse_meV_atom": 0.035604526390008155,
+      "coefficients": [
+        3.804252261207727,
+        -0.00829378763832127,
+        -7.3676659311567
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 9.718073517534785,
+      "stiffness_GPa": 133.30975119659664,
+      "energy_rmse_meV_atom": 0.35685773931361225,
+      "coefficients": [
+        4.022232668512717,
+        -0.020721753438363376,
+        -7.367796720364393
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 9.744642666306968,
+      "stiffness_GPa": 144.2168482142839,
+      "energy_rmse_meV_atom": 1.216476208790177,
+      "coefficients": [
+        4.339458437206228,
+        -0.04614526098903884,
+        -7.368206597708322
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 9.718588784477774,
+      "stiffness_GPa": 87.58846278945516,
+      "energy_rmse_meV_atom": 0.026217050372782224,
+      "coefficients": [
+        2.6425861177001124,
+        -0.013895034789962301,
+        -7.367819336482454
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 9.727935878860633,
+      "stiffness_GPa": 88.33959165607725,
+      "energy_rmse_meV_atom": 0.13759952563969122,
+      "coefficients": [
+        2.662687131911303,
+        -0.019136004977797716,
+        -7.36782931249379
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 9.751402168446088,
+      "stiffness_GPa": 92.98470175447245,
+      "energy_rmse_meV_atom": 0.6927164996451389,
+      "coefficients": [
+        2.795953122872977,
+        -0.03363134223465833,
+        -7.368009563926217
+      ],
+      "center_volume_A3_atom": 9.693105030000957,
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 20.448231168159232,
+      "stiffness_GPa": 85.95898514159718,
+      "energy_rmse_meV_atom": 0.3479169420976929,
+      "coefficients": [
+        5.413102308911241,
+        -0.07203702926628094,
+        -5.313884912218366
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 20.517261643453146,
+      "stiffness_GPa": 85.1003794002571,
+      "energy_rmse_meV_atom": 0.7358010632913289,
+      "coefficients": [
+        5.34100275208399,
+        -0.10737849606410768,
+        -5.313823741235777
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 20.612229430417035,
+      "stiffness_GPa": 79.98070335083831,
+      "energy_rmse_meV_atom": 1.8893351495830155,
+      "coefficients": [
+        4.996558233667165,
+        -0.14717347193986274,
+        -5.3134230967168214
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "frozen",
+      "half_width": 6
+    },
+    {
+      "valid": true,
+      "n_points": 5,
+      "volume_A3_atom": 20.448231168159232,
+      "stiffness_GPa": 85.95898514159718,
+      "energy_rmse_meV_atom": 0.3479169420976929,
+      "coefficients": [
+        5.413102308911241,
+        -0.07203702926628094,
+        -5.313884912218366
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 2
+    },
+    {
+      "valid": true,
+      "n_points": 9,
+      "volume_A3_atom": 20.517261643453146,
+      "stiffness_GPa": 85.1003794002571,
+      "energy_rmse_meV_atom": 0.7358010632913289,
+      "coefficients": [
+        5.34100275208399,
+        -0.10737849606410768,
+        -5.313823741235777
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 4
+    },
+    {
+      "valid": true,
+      "n_points": 13,
+      "volume_A3_atom": 20.612229430417035,
+      "stiffness_GPa": 79.98070335083831,
+      "energy_rmse_meV_atom": 1.8893351495830155,
+      "coefficients": [
+        4.996558233667165,
+        -0.14717347193986274,
+        -5.3134230967168214
+      ],
+      "center_volume_A3_atom": 20.313069013125,
+      "material": "Si",
+      "mode": "relaxed",
+      "half_width": 6
+    }
+  ],
+  "checks": [
+    {
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.013131199179949427,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "frozen",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.03915554022784118,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.011792698639781385,
+      "count": 3
+    },
+    {
+      "material": "LiMnO2",
+      "mode": "relaxed",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.010513879401268689,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "frozen",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.00539401727734834,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "frozen",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.06752315141041976,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "relaxed",
+      "relative_volume_step": 0.001,
+      "max_abs_error_GPa": 0.0053778048139694334,
+      "count": 3
+    },
+    {
+      "material": "Si",
+      "mode": "relaxed",
+      "relative_volume_step": 0.005,
+      "max_abs_error_GPa": 0.06752791978200179,
+      "count": 3
+    }
+  ],
+  "relaxation": [
+    {
+      "material": "LiMnO2",
+      "converged": 17,
+      "total": 17,
+      "min_gain_meV_atom": 0.15974044799804688,
+      "max_gain_meV_atom": 26.126384735107422,
+      "max_steps": 33
+    },
+    {
+      "material": "Si",
+      "converged": 17,
+      "total": 17,
+      "min_gain_meV_atom": 0.0,
+      "max_gain_meV_atom": 0.0,
+      "max_steps": 0
+    }
+  ],
+  "refinement": [
+    {
+      "material": "LiMnO2",
+      "converged": 5,
+      "total": 5,
+      "max_extra_energy_drop_meV_atom": 0.07200241088867188,
+      "tight_fit": {
+        "valid": true,
+        "n_points": 5,
+        "volume_A3_atom": 9.717462014042725,
+        "stiffness_GPa": 88.86260905082975,
+        "energy_rmse_meV_atom": 0.011935143851125417,
+        "coefficients": [
+          2.681338597858627,
+          -0.013475418090792906,
+          -7.367881311689102
+        ],
+        "center_volume_A3_atom": 9.693105030000957
+      }
+    },
+    {
+      "material": "Si",
+      "converged": 5,
+      "total": 5,
+      "max_extra_energy_drop_meV_atom": 0.0,
+      "tight_fit": {
+        "valid": true,
+        "n_points": 5,
+        "volume_A3_atom": 20.448231168159232,
+        "stiffness_GPa": 85.95898514159718,
+        "energy_rmse_meV_atom": 0.3479169420976929,
+        "coefficients": [
+          5.413102308911241,
+          -0.07203702926628094,
+          -5.313884912218366
+        ],
+        "center_volume_A3_atom": 20.313069013125
+      }
+    }
+  ]
+}

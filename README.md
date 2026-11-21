@@ -1,5 +1,9 @@
 # Cybershuttle AI Model Foundry
 
+## Assignment 5 research experiment
+
+[CHGNet volume-response proof of concept](experiments/chgnet-eos/README.md): frozen versus relaxed crystal scans, measured execution evidence, numerical sensitivity checks, and the Part 1 PDF.
+
 ## CHGNet Assignment 2 reproduction — Pratham Patel
 
 The [CHGNet reproduction guide](docs/tutorials/chgnet-pratham/README.md) is the primary guide for environment setup, artifact provenance, GPU allocation, inference, validation, troubleshooting, and cleanup. The contribution tracks [issue #21](https://github.com/cyber-shuttle/cybershuttle-ai4science-foundry/issues/21) and [Assignment 2 PR #39](https://github.com/cyber-shuttle/cybershuttle-ai4science-foundry/pull/39).

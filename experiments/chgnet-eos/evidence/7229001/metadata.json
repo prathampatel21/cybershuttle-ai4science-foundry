@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-11-21T20:45:22.044265+00:00",
+  "source_commit": "b9a6c15860237297a5a5169660e83b2e61a78e76",
+  "checkpoint": "0.3.0",
+  "script_sha256": "52016055005feb0a9a8f315888d827d6401916044c2779cc9c05e517deffbd41",
+  "input_sha256": "a3cf7f903ba5d2932c82ed70316a34cbe50cf852ec2c1edd59872721953ffaae",
+  "packages": {
+    "chgnet": "0.4.1",
+    "torch": "2.5.1+cu121",
+    "numpy": "2.2.6",
+    "ase": "3.29.0",
+    "pymatgen": "2025.10.7"
+  },
+  "python": "3.10.13",
+  "hostname": "atl1-1-02-009-32-0.pace.gatech.edu",
+  "device": "cuda",
+  "gpu": "Tesla V100-PCIE-16GB",
+  "seed": 42,
+  "threads": 4,
+  "fmax_eV_A": 0.03,
+  "max_steps": 200,
+  "volume_factors": [
+    0.88,
+    0.895,
+    0.91,
+    0.925,
+    0.9400000000000001,
+    0.9550000000000001,
+    0.9700000000000001,
+    0.9850000000000001,
+    1.0,
+    1.0150000000000001,
+    1.03,
+    1.0450000000000002,
+    1.06,
+    1.0750000000000002,
+    1.09,
+    1.105,
+    1.12
+  ],
+  "silicon_initial_lattice_A": 5.43,
+  "constraint": "Fixed cell shape at each isotropically scaled volume; only sites relaxed.",
+  "slurm": {
+    "SLURM_JOB_ID": "7229001",
+    "SLURM_JOB_PARTITION": "ice-gpu",
+    "SLURM_JOB_ACCOUNT": "coc"
+  },
+  "elapsed_seconds": 20.213095972081646,
+  "gpu_peak_allocated_MiB": 256.951171875
+}

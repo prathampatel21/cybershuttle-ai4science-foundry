@@ -1,0 +1,13 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda
+Smoke: {'e': True, 'f': True, 's': True, 'm': True}
+Reference e: {'passed': True, 'max_abs_error': 1.516876221074881e-06, 'rtol': 0.0001, 'atol': 0.0001, 'unit': 'eV/atom'}
+Reference f: {'passed': True, 'max_abs_error': 3.4123303207407585e-06, 'rtol': 0.001, 'atol': 0.0001, 'unit': 'eV/angstrom'}
+Reference s: {'passed': True, 'max_abs_error': 0.0005438937956238066, 'rtol': 0.005, 'atol': 0.0001, 'unit': 'GPa'}
+Reference m: {'passed': True, 'max_abs_error': 4.3261108384484714e-07, 'rtol': 0.001, 'atol': 0.0001, 'unit': 'mu_B'}
+Symmetry rotation_30: True
+Symmetry rotation_60: True
+Symmetry rotation_120: True
+Symmetry translation: True
+Symmetry permutation: True
+Overall: PASS Saved: runs/7229001/reference-validation.json

@@ -1,0 +1,28 @@
+JobId=7229001 JobName=bash
+   UserId=ppatel686(3317587) GroupId=gtperson(2626) MCS_label=N/A
+   Priority=583339 Nice=0 Account=coc QOS=coc-ice
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=0 Reboot=0 ExitCode=0:0
+   RunTime=00:01:41 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-11-21T15:43:40 EligibleTime=2026-11-21T15:43:40
+   AccrueTime=2026-11-21T15:43:42
+   StartTime=2026-11-21T15:44:03 EndTime=2026-11-21T16:44:03 Deadline=N/A
+   PreemptEligibleTime=2026-11-21T16:14:03 PreemptTime=None
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-21T15:44:03 Scheduler=Backfill
+   Partition=ice-gpu AllocNode:Sid=login-ice-gnr-1.pace.gatech.edu:849783
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=atl1-1-02-009-32-0
+   BatchHost=atl1-1-02-009-32-0
+   NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=4,mem=16G,node=1,billing=4,gres/gpu=1
+   AllocTRES=cpu=4,mem=16G,node=1,billing=4,gres/gpu=1,gres/gpu:v100=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=4 MinMemoryNode=16G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=bash
+   SubmitLine=srun --account=coc --partition=ice-gpu --gres=gpu:1 --cpus-per-task=4 --mem=16G --time=01:00:00 --pty bash
+   WorkDir=/storage/ice1/8/7/ppatel686
+   TresPerNode=gres/gpu:1
+   TresPerTask=cpu=4
+

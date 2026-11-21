@@ -1,0 +1,22 @@
+[
+  {
+    "material": "Si",
+    "mode": "frozen",
+    "stiffness_GPa": 85.77211263208508
+  },
+  {
+    "material": "Si",
+    "mode": "relaxed",
+    "stiffness_GPa": 85.77211263208508
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "frozen",
+    "stiffness_GPa": 124.11652144311759
+  },
+  {
+    "material": "LiMnO2",
+    "mode": "relaxed",
+    "stiffness_GPa": 88.16465675980605
+  }
+]
